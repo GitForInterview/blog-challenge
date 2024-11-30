@@ -1,0 +1,63 @@
+/* Global styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 2px solid black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Container for the main content and sidebar */
+.container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 25%;
+    border-right: 2px solid black;
+    padding: 1rem;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 0.5rem 0;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar li a:hover {
+    text-decoration: underline;
+}
+
+.sidebar .new-post {
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+/* Main content styles */
+.main-content {
+    flex: 1;
+    padding: 1rem;
+}

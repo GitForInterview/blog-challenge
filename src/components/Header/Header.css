@@ -1,0 +1,36 @@
+.header {
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 2px solid black;
+    font-size: 1.5rem;
+    background-color: #f8f9fa;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #007bff;
+}
+
+nav .load-sample-data {
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+nav .load-sample-data:hover {
+    background-color: #0056b3;
+}
